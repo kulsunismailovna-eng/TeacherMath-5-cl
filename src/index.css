@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --color-natural-bg: #FAF7F2;
+  --color-natural-border: #E8E2D9;
+  --color-natural-dark: #4A443C;
+  --color-natural-gray: #8C8273;
+  --color-natural-yellow: #F3E99F;
+  --color-natural-yellow-text: #7A702E;
+  --color-natural-yellow-dark: #E2D686;
+  --color-natural-green: #D4E2D4;
+  --color-natural-green-text: #445044;
+  --color-natural-orange: #E9B384;
+  --color-natural-orange-text: #6B4423;
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.3s ease-out forwards;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "Математика 5-класс",
+  "description": "5-класстын окуучулары үчүн математиканы өз алдынча үйрөнүүчү интерактивдүү мобилдик тиркеме. Сабактар, тесттер, оюндар жана AI жардамчы мугалим камтылган.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
